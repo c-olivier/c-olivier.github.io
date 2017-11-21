@@ -1,3 +1,3 @@
-[English](http://c-olivier.github.io/en)
+[English](http://c-olivier.github.io/en.html)
 
-[French](http://c-olivier.github.io/fr)
+[French](http://c-olivier.github.io/fr.html)
