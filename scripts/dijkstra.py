@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
 #====================================================================================================#
-#																									 #
-# title           : dijkstra.py 																	 #
+#																									                                                   #
+# title           : dijkstra.py 																	                                   #
 # description     : Naive implementation of Dijkstra's shortest path algorithm using min-queue       #
-# author          : Charles Olivier (https://c-olivier.github.io/)									 #
-# date            : 26.03.2018																		 #
-# usage           : python3 dijkstra.py 															 #
-# notes           : runs ~O(N^2), where N is the number of vertices in graph  						 #
-# python_version  : 3.6.4   																		 #
-#																									 #
+# author          : Charles Olivier (https://c-olivier.github.io/)									                 #
+# date            : 26.03.2018																		                                   #
+# usage           : python3 dijkstra.py 															                               #
+# notes           : runs ~O(N^2), where N is the number of vertices in graph  						           #
+# python_version  : 3.6.4   																		                                     #
+#																									                                                   #
 #====================================================================================================#
 
 import matplotlib.pyplot as plt
@@ -106,5 +106,3 @@ nx.draw_networkx_edges(G, pos, edgelist=[(path[i],path[i+1]) for i in range(len(
                        width=8, alpha=0.5, edge_color='b') 
 nx.draw_networkx_nodes(G, pos, nodelist=path, node_color='r')
 plt.show();
-
-
