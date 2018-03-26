@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
 
-#====================================================================================================#
-#																									                                                   #
-# title           : dijkstra.py 																	                                   #
-# description     : Naive implementation of Dijkstra's shortest path algorithm using min-queue       #
-# author          : Charles Olivier (https://c-olivier.github.io/)									                 #
-# date            : 26.03.2018																		                                   #
-# usage           : python3 dijkstra.py 															                               #
-# notes           : runs ~O(N^2), where N is the number of vertices in graph  						           #
-# python_version  : 3.6.4   																		                                     #
-#																									                                                   #
-#====================================================================================================#
+#====================================================================================================
+# title           : dijkstra.py
+# description     : Naive implementation of Dijkstra's shortest path algorithm using min-queue
+# author          : Charles Olivier (https://c-olivier.github.io/)
+# date            : 26.03.2018
+# usage           : python3 dijkstra.py
+# notes           : runs ~O(N^2), where N is the number of vertices in graph
+# python_version  : 3.6.4
+#====================================================================================================
 
 import matplotlib.pyplot as plt
 import numpy as np
