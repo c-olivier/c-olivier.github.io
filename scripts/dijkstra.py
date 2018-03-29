@@ -2,11 +2,11 @@
 
 #====================================================================================================
 # title           : dijkstra.py
-# description     : Naive implementation of Dijkstra's shortest path algorithm using min-queue
+# description     : Naive implementation of Dijkstra's shortest path algorithm using min-queue.
 # author          : Charles Olivier (https://c-olivier.github.io/)
 # date            : 26.03.2018
-# usage           : python3 dijkstra.py
-# notes           : runs ~O(N^2), where N is the number of vertices in graph
+# usage           : chmod+x dijkstra.py; ./dijkstra.py
+# notes           : runs ~O(N^2), where N is the number of vertices in graph.
 # python_version  : 3.6.4
 #====================================================================================================
 
@@ -86,16 +86,15 @@ while node_label != 'END':
 c = node_objects['END']['params']['from']
 path = ''
 while c != 'START':
-    path+=c
+    path += c
     c = node_objects[c]['params']['from']
 
 path = ['START'] + list(reversed(path)) + ['END']
 print('Our shortest path found:')
 print(path)
 
-pos=nx.spring_layout(G)
 plt.figure()
-plt.title('Network with shortest path')
+plt.title('Dijkstra Shortest Path')
 nx.draw(G, pos, with_labels=True, node_color='w')
 
 labels = nx.get_edge_attributes(G,'weight')
