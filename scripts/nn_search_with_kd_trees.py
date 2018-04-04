@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #===============================================================================================================
-# title           : nn_search_with_kd_trees.py.py
+# title           : nn_search_with_kd_trees.py
 # description     : Efficient implementation of Nearest Neighbour search using k-d Trees.
 # author          : Charles Olivier (https://c-olivier.github.io/)
 # date            : 03.04.2018
